@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+background-color: black;
+padding-top: 45px;
+padding-bottom: 45px;
+}
+
+ 
+
+.nawbar{
+    display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+ul{
+    display: flex;
+   list-style: none;
+   gap: 30px;
+}
+
+.option{
+    color:#F57520 ;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+  
+}
+
+.otheroptions{
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.menu{
+padding-left: 300px;
+
+}
+#hero{
+    background-image:url(./images/background.png) ;
+    padding-top: 90px;
+padding-bottom: 90px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.hero-title{
+font-size: 110px;
+color: aliceblue;
+
+}
+.hero-subtitle{
+    color: aliceblue;
+    font-size: 18px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.hero-btn{
+   font-size: 16px;
+    padding: 16px 80px 16px 80px; 
+color: aliceblue;
+background-color: #F57520;
+border-radius: 10px;
+margin-top: 35px;
+cursor: pointer;
+border: none;
+outline: none;
+}
+
+#velik{
+background-image: url(./images/biker.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 533px;
+background-attachment: fixed;
+}
+#hero-info{
+ background-color: black;   
+}
+.section3{
+display: flex;
+justify-content: center;
+
+gap: 100px;
+align-items: center;
+padding-top: 50px;
+padding-bottom: 30px;
+}
+
+
+
+
+
+
+.hero-title1{
+    font-size: 64px;
+        color: aliceblue;
+        width: 700px;
+padding-top: 150px;
+padding-bottom: 30px;
+
+}
+.sections{
+vertical-align: middle;
+padding-right: 20px;
+ 
+gap: 50px;
+}
+.card{
+   text-align: center;
+background-color: black;
+width: 350px;
+height:150px ;
+padding-top: 20px;
+color: white;
+border-radius: 30px;
+box-shadow:1px 10px 10px 10px aqua;
+}
+.cards{
+width: 400px;
+height: 430px; 
+   border: 5px solid lightgrey;
+margin: 30px;
+align-items: center;
+padding: 12px;
+border-radius: 15px;
+box-shadow: 20px 30px 50px red;
+background-color: aliceblue;
+}
+.hero-btn1{
+    font-size: 16px;
+        padding: 16px 80px 16px 80px;
+        color: aliceblue;
+        background-color: #F57520;
+    justify-content: space-between;
+        border-radius: 10px;
+   margin-top: 13px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+width:368px ;
+}
+
+.img1{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.price{
+font-size: 16px;
+color: rgb(148, 148, 148);
+}
+.section4{
+display: flex;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+  #hero-info1{
+   justify-content: center;
+   background-color: black;
+  }  
+.headline{
+    margin-top: 20px;
+}
+#background1{
+background-image: url(./images/biker.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+height: 533px;
+}
